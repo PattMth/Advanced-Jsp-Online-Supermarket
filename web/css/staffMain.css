@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 3, 2021, 11:45:33 PM
+    Author     : symon
+*/
+
+.logo{    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+body{
+     background-image: linear-gradient(to right, #f7bd19, #f3cf3b, #f0e058, #eef074, #edff91);
+}
+table th{
+    border-top: 0pt;
+    border-right: 0pt;
+    border-left: 0pt;
+    padding: 20px;
+    font-size:20px;
+}
+table th a{
+   color:white;
+}
+table th:hover{
+    background-color: white;
+    color:black;
+}
+th a:hover{
+    color:black;
+}
+
+ 
+
+.container img {
+    width: 10%;
+    height: auto;
+    text-align: center;
+}
+
+ 
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 800; 
+    line-height: 12px; 
+    margin: 0 0 24px; 
+    text-align: center; 
+}
+
+ 
+
+.center
+{
+    text-align: center;
+}
+
+ 
+
+.searchTb
+{
+    height: 30px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: width 0.4s ease-in-out;
+}
+
+ 
+
+.searchTb:focus
+{
+    width: 25%;
+}
+ 
+
+.dashboardTable
+{
+    border-collapse: collapse;
+    width: 100%;
+    padding-top: 50px;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); 
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+               0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+               0 12.5px 10px rgba(0, 0, 0, 0.06),
+               0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+               0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+               0 100px 80px rgba(0, 0, 0, 0.12);
+    color:white;
+    
+}
+
+ 
+
+.topRight
+{  
+    position:absolute;
+    top:-1;
+    right:0;
+}
+.topRight a:hover{
+    background-color: white;
+    color:black;
+}
+
+ 
+
+.bttn {
+    background: rgb(229,232,143);
+    background: linear-gradient(0deg, rgba(229,232,143,1) 10%, rgba(214,29,20,1) 47%, rgba(214,34,23,1) 98%);
+    color: white;
+    padding: 16px 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius:50%;
+    box-shadow: 5px 4px black;
+}

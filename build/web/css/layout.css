@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 3, 2021, 2:51:21 PM
+    Author     : symon
+*/
+
+html{
+     color: black;
+     font-family: 'Lato', 'Arial', 'sans-serif';
+     font-size: 20px;
+     font-weight: 300;
+     text-rendering: optimizeLegibility;
+    }
+body{
+    background-color: #fcba03;
+}
+header{
+    text-align: center;
+}
+
+    h2{
+        font-weight: 300; 
+        font-size:240%;
+        margin-left:10px;
+        margin-top:5px;
+        margin-bottom:8px;
+        margin-top:5px;
+    }
+    
+ 
+.Container{
+    padding:40px;
+    background-color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display:block;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+               0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+               0 12.5px 10px rgba(0, 0, 0, 0.06),
+               0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+               0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+               0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.reg-container{
+    background-image: linear-gradient(to top, #8badac, #95b7b8, #9fc1c3, #aacccf, #b5d6db);
+}
+button,
+input[type=submit]{
+    font-size:100%;
+    margin-top: 12px;
+    background-color: #e67e22;
+    border: 1px;
+    color: white;
+    padding:10px;
+    border-radius:10px;
+}
+button:hover,
+input[type=submit]:hover{
+    background-color: #cf6d17;
+}
+.center{
+    text-align: center;
+}
+.tb,
+select{
+    margin-left:40px;
+    font-size:100%;
+}
+.topRight{
+    margin-left:55%;
+    display:inline;
+}
+.delbttn{
+    background: rgb(229,232,143);
+    background: linear-gradient(0deg, rgba(229,232,143,1) 10%, rgba(214,29,20,1) 47%, rgba(214,34,23,1) 98%);
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    border-radius:50%;
+    box-shadow: 5px 4px black;
+}

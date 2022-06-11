@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 4, 2021, 12:07:34 AM
+    Author     : symon
+*/
+.container img {
+    width: 10%;
+    height: auto;
+}
+body{
+    font-size:120%;
+    background-image: linear-gradient(to right, #f7bd19, #f3cf3b, #f0e058, #eef074, #edff91);
+}
+ 
+
+.left{
+    text-align: left;
+}
+
+ 
+
+.searchTb
+{
+    height: 50px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+   font-size: 40px;
+}
+
+ 
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 800; 
+    line-height: 12px; 
+    margin: 0 0 24px; 
+    text-align: center; 
+}
+
+ 
+
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+}
+
+ 
+
+.logo{    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ 
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+
+ 
+
+.right{
+    text-align: right;
+}
+th{
+    background-color:white;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:normal;
+    padding: 11px;
+    color:white;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);
+    text-align:center;
+}
+input[type=text]{
+    font-size: 100%;
+}
+ 
+
+.accessTable{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    padding:0px;
+    border-top: 0pt;
+    border-right: 0pt;
+    border-left: 0pt;
+    border-bottom: 0pt;
+}
+
+ 
+
+th{
+    border: 2px solid black;
+}
+
+ 
+
+.tabBorder{
+    border: 2px solid black;
+}
+
+ 
+
+.bttn {
+   background-color: #03fcad;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px black;
+    border-radius: 5%
+}
+
+ 
+
+a.test{
+    color: blue;
+    text-decoration:none;
+
+ 
+
+}
+a:hover{
+    opacity:0.8;
+    color:#47B9DE;
+}
+
+ 
+
+.topRight{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+ 
+
+.sbttn{
+     background-color: #03fcad;
+    color: black;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px black;
+    border-radius: 5%
+}

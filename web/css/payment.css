@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 4, 2021, 3:06:44 PM
+    Author     : symon
+*/
+
+ body{
+                background-image: linear-gradient(to right, #f7bd19, #f3cf3b, #f0e058, #eef074, #edff91);
+            }
+            .Container{
+                padding:40px;
+                background-image: linear-gradient(to top, #8badac, #95b7b8, #9fc1c3, #aacccf, #b5d6db);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                display:block;
+                border-radius: 20px;
+                transform: translate(-50%, -50%);
+                box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12)
+}
+            .redcolor:hover{
+                color:red;
+            }
+            .box{
+                background-color: white;
+                width: 300px;
+                border: 2px solid gray;
+                padding: 10px;
+                margin: 20px;
+                float:left;
+            }
+            tr{
+                font-size:120%;
+            }
+            .redcolor
+            {
+                text-align:left; 
+                margin-left:70px; 
+                margin-top:50px; 
+                display:inline-block;  
+                color: #3e88ff; 
+            }
+            td {
+                font-family:Arial;
+                font-weight:normal;
+                padding: 0px;
+                text-align:left;
+                vertical-align: middle;
+            }
+            ul {
+                list-style: none;
+                padding-left: 0px;
+                color:#3e88ff;
+            }
+            li {
+                margin-bottom: 15px;
+            }
+            li a:hover{
+                color: tomato;
+                cursor: pointer;
+            }
+            li a {
+                color:#3e88ff;
+            }
+            .shakeanimation {
+                /* Start the shake animation and make the animation last for 0.5 seconds */
+                animation: shake 0.3s;
+            }
+            p {
+                font-size:18px;
+                color:black;
+                font-family:Arial;
+            }
+            .button2 {
+                background-color: white; 
+                color: #3e88ff; 
+                border: 2px solid #3e88ff;
+                width:90px;
+                padding:5px;
+                border-radius: 10px;
+            }
+            .button2:hover {
+                background-color: #3e88ff;
+                color: white;
+            }
+            .button3 {
+                background-color: white; 
+                color:  #cc0000; 
+                border: 2px solid #cc0000;
+                width:90px;
+                padding:5px;
+                border-radius: 10px;
+                text-align:center;
+            }
+            .button3:hover {
+                background-color:  #cc0000;
+                color: white;
+            }
+            .button {
+                border-radius: 4px;
+                background-color: #f4511e;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 16px;
+                padding: 15px;
+                width: 190px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+                display: inline-block;
+                float: none; 
+            }
+            .button span {
+                cursor: pointer;
+                position: relative;
+                transition: 0.3s;
+            }
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+                text-align:center;
+            }
+            .button:hover span {
+                padding-right: 25px;
+            }
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }   
+            .outline:focus {
+                outline: none;
+            }
+            @keyframes shake {
+                0% { transform: translate(1px, 1px) rotate(0deg); }
+                10% { transform: translate(-1px, -2px) rotate(-1deg); }
+                20% { transform: translate(-3px, 0px) rotate(1deg); }
+                30% { transform: translate(3px, 2px) rotate(0deg); }
+                40% { transform: translate(1px, -1px) rotate(1deg); }
+                50% { transform: translate(-1px, 2px) rotate(-1deg); }
+                60% { transform: translate(-3px, 1px) rotate(0deg); }
+                70% { transform: translate(3px, 1px) rotate(-1deg); }
+                80% { transform: translate(-1px, -1px) rotate(1deg); }
+                90% { transform: translate(1px, 2px) rotate(0deg); }
+                100% { transform: translate(1px, -2px) rotate(-1deg); }
+            }
+            input[type=text],
+            input[type=int]{
+                font-size:100%;
+            }

@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 3, 2021, 11:38:19 PM
+    Author     : symon
+*/
+ body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-image: linear-gradient(to right, #f7bd19, #f3cf3b, #f0e058, #eef074, #edff91);
+}
+h1{
+    text-align:center;
+    font-size:20px;
+    font-family:Arial;
+}
+table{
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+               0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+               0 12.5px 10px rgba(0, 0, 0, 0.06),
+               0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+               0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+               0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 2%;
+}
+table, tr {
+    border: 2.5px solid black;
+    text-align:center;
+    padding:0px;
+    border-top: 0pt;
+    border-right: 0pt;
+    border-left: 0pt;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+}
+
+th
+{
+    font-family:Arial;
+    font-size:15px;
+    font-weight:normal;
+    padding: 11px;
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+               0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+               0 12.5px 10px rgba(0, 0, 0, 0.06),
+               0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+               0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+               0 100px 80px rgba(0, 0, 0, 0.12);
+    
+    text-align:center;
+    vertical-align: middle;
+}
+th img{
+ 
+   margin-top:auto;
+   margin-bottom:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    position: absolute;
+
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  cursor:pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width:100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown:hover .dropdown-content {
+  margin-top:12px;
+  margin-right: 300px;
+  display: block;
+  background-color:white;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+th:hover{
+    background-color:white;
+    color:black;
+}
+
+ .centerz {
+  display: block;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+th:hover
+{
+    cursor:pointer;
+}
+a.home {
+  
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+th a { 
+  color:white;
+  width: 100%;
+  display: block;
+
+}
+a:hover
+{
+    text-decoration:none;
+    color:black;
+}
+
+a{
+    text-decoration:none; 
+}
+
+table.viewprofile{
+    border:0px;
+    border-bottom: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+    height:140px;
+    color:white; 
+}
+
+td
+{
+    margin-right: 5px;
+    font-family:arial;
+    font-size:18px;
+    text-align: center;
+}
+
+td.title
+{
+    font-family:arial;
+    font-size:14px;
+    text-align: center;
+    font-weight: bold;
+}
+button {
+  
+  background-color: #ffffff;
+  color: orangered;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border-collapse: collapse;
+  border-color: orangered;
+  cursor: pointer;
+  width: 10%;
+}
+
+.buttonposition
+{
+    margin-left:45%;
+    
+
+}
+
+button:hover{
+    background-color:orangered;
+    color:white;
+}

@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2021, 3:29:54 PM
+    Author     : symon
+*/
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-image: linear-gradient(to right, #f7bd19, #f3cf3b, #f0e058, #eef074, #edff91);
+}
+img{
+   margin-left: 45%;
+}
+.main{
+    margin-left:35%;
+}
+.Container{
+                padding:40px;
+                background-image: linear-gradient(to top, #8badac, #95b7b8, #9fc1c3, #aacccf, #b5d6db);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                display:block;
+                border-radius: 20px;
+                transform: translate(-50%, -50%);
+                box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12)
+}
